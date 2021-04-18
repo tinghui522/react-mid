@@ -10,11 +10,11 @@
 }
 
 /* sm */
-/*@media (min-width: 576px) { 
+@media (min-width: 375px) { 
   .container {
-    width: 540px;
+    width: 100%;
   }
-} */
+} 
 
 /* md */
 /*@media (min-width: 768px) {
@@ -45,11 +45,17 @@
 } */
 
 /*fixweb*/
+.fixweb-img{
+  margin-top: 3rem;
+  margin-left: 42rem;
+  width: 15%;
+}
 .fixweb-word{
   font-size: large;
-  margin-top: 15rem;
+  margin-top: 4.2rem;
   color: #4D4D4D;
   font-weight: bold;
+  margin-left: 37rem;
 }
 
 /* general */

@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Row, Col } from "antd";
 import { Select } from 'antd';
 import { Card } from "antd";
+import { Link } from "react-router-dom"
 import ProductItem from "./ProductItem";
 
 
@@ -17,7 +18,9 @@ export default function PerfumeDetail({product}) {
         <div className="perfume-detail">
             <img src="https://github.com/tinghui522/react-mid/blob/main/src/img/product-word.png?raw=true" className="product-word"/>
             <img src="https://github.com/tinghui522/react-mid/blob/main/src/img/jo-malone-london-blossoms-yuja-cologne.png?raw=true" className="product-img" />
+            
             <img src="https://github.com/tinghui522/react-mid/blob/main/src/img/up-arrow.png?raw=true"className="arrow-icon"/>
+            
         </div>
         <div>
         <Row gutter={[48,48]}>
