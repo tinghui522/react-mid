@@ -6,26 +6,23 @@ export default function ProductItem({ product }) {
         <Card className="bg-gray product">
             <Link to={`/product/${product.id}`}>
                 <img
-                    style={{ width: '100%' }}
+                    style={{ width: '80%' }}
                     src={product.image}
-                    alt={product.name} />
+                    alt={product.name} className="product-item"/>
             </Link>
             <div className="product-info">
-                <h6 className="product-category">
+                <div className="backcolor-product-category">
+                <h3 className="product-category">
                     {product.category}
-                </h6>
-                <h2 className="product-name">
+                </h3>
+                </div>
+                <h3 className="product-name">
                     {product.name}
-                </h2>
-                <p className="product-description">
-                    {product.description}
-                </p>
+                </h3>
                 <div className="product-more">
-                    <Link to={`/product/${product.id}`} className="product-link">
-                        See More ...
-                    </Link>
+                    
                     <span
-                        className="text-gray">
+                        className="product-price">
                         USD {product.price}.00
                     </span>
                 </div>

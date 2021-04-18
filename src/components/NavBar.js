@@ -34,22 +34,22 @@ export default function NavBar() {
                 onClose={handleCloseDrawer}
                 visible={isOnTouch}
                 key={"left"}
-                width={200}
+                width={250}
                 zIndex={99}
                 bodyStyle={{ backgroundColor: "#fff" }}
                 /*headerStyle={{ backgroundColor: "#ECE4AC", color: "#4D4D4D" }}*/
             >
-                <NavItem onClose={handleCloseDrawer} to="/tableware" className="nav-item" activeClassName="nav-item--active">
-                    香水系列
+                <NavItem onClose={handleCloseDrawer} to="/Perfume" className="nav-item" activeClassName="nav-item--active">
+                    PERFUME
                 </NavItem>
-                <NavItem onClose={handleCloseDrawer} to="/cookware" className="nav-item" activeClassName="nav-item--active">
-                    香氛系列
+                <NavItem onClose={handleCloseDrawer} to="/Fixweb" className="nav-item" activeClassName="nav-item--active">
+                    CANDLES
                 </NavItem>
-                <NavItem onClose={handleCloseDrawer} to="/home-accessories" className="nav-item" activeClassName="nav-item--active">
-                    沐浴系列
+                <NavItem onClose={handleCloseDrawer} to="/Fixweb" className="nav-item" activeClassName="nav-item--active">
+                    BATH/BODY
                 </NavItem>
-                <NavItem onClose={handleCloseDrawer} to="/lighting" className="nav-item" activeClassName="nav-item--active">
-                    居室系列
+                <NavItem onClose={handleCloseDrawer} to="/Fixweb" className="nav-item" activeClassName="nav-item--active">
+                    DIFFUSER
                 </NavItem>
             </Drawer>
         </div>

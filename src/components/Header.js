@@ -32,12 +32,12 @@ export default function Header({title}) {
             <div className="header-text"  onClick={onClickHeader}>
                <Link to="/">
                <h1 className="header-title" >
-                  Jo Malon
+                  Freesia
                </h1>
                </Link>
             </div>
-            <CartSummary />                           
-         </div>
+            <CartSummary />   
+         </div>   
       </header>
    );
 }

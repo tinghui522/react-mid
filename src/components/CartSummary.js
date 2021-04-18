@@ -19,10 +19,9 @@ export default function CartSummary() {
     <>
       <Link to="/cart">
       <nav className="header-cart-summary" >
-        <Badge count={count} size={"small"} style={{ color: 'black', backgroundColor: '#6366F2' }}>
+        <Badge count={count} size={"small"} style={{ color: 'black', backgroundColor: '#EAE3D8' }}>
           <CartIcon size={32}/>
         </Badge>
-        <p className="cart-summary-text"> Shopping bag </p>
       </nav>
       </Link>
       

@@ -4,8 +4,9 @@ import AppHeader from "../components/Header"
 import AppFooter from "../components/Footer"
 import ProductDetail from "../components/ProductDetail";
 import products from "../json/products.json";
+import Footer from '../components/Footer';
 
-const { Header, Content, Footer } = Layout;
+const { Header, Content } = Layout;
 
 function Product({ match }) {
    const product = products.find(
@@ -14,7 +15,7 @@ function Product({ match }) {
    return (
       <Layout className="container main-layout">
          <Layout className="bg-gray">
-            <NavBar />
+         <NavBar />
          </Layout>
          <Layout className="bg-gray">     
             <Header className="layout-header">
@@ -24,7 +25,7 @@ function Product({ match }) {
                <ProductDetail product={product} />
             </Content>
             <Footer className="layout-footer">
-               <AppFooter />
+               <AppFooter/>
             </Footer>
          </Layout>
       </Layout>

@@ -1,15 +1,15 @@
 import { Modal, Button, Select } from "antd";
-import { useContext } from "react";
+import { useContext ,useState} from "react";
 import { StoreContext } from "../store"
 import { CartIcon } from "./Icons";
 import { CART_ADD_ITEM, CART_REMOVE_ITEM } from "../utils/constants";
 
 const { Option } = Select;
 
-export default function CartModal({ isModalVisible, toggleModal }) {
+ function CartModal({ isModalVisible, toggleModal }) {
    const { state: { cartItems }, dispatch } = useContext(StoreContext);
    const handleCancel = () => toggleModal(!isModalVisible);
-   const addToCart = (product, qty) => {
+   const addToCart = (product, qty,Size) => {
       dispatch({
          type: CART_ADD_ITEM,
          payload: {
@@ -19,6 +19,7 @@ export default function CartModal({ isModalVisible, toggleModal }) {
             price: product.price,
             countInStock: product.countInStock,
             qty,
+            Size,
          },
       });
    };
@@ -41,6 +42,11 @@ export default function CartModal({ isModalVisible, toggleModal }) {
       // footer={null}
       //>
       <>
+      <hr className="hr-line-productdetail" />
+      <div className="cart-title-bg">
+       <p className="cart-title">Shopping Bag</p>
+      </div>
+      <div className="cart-detail">
          {cartItems.length === 0 ? (
             <div>Cart is empty</div>
          ) : (
@@ -51,8 +57,9 @@ export default function CartModal({ isModalVisible, toggleModal }) {
                   </div>
                   <div className="cart-item-content">
                      <div className="cart-name">{item.name}</div>
-                     <div className="product-qty">
-                        Qty: {"   "}
+                    <div className="cart-size">{item.Size}</div>
+                     <div className="cart-qty">
+                        Qty: {"  "}
                         <Select
                            defaultValue={item.qty}
                            className="select-style"
@@ -74,22 +81,27 @@ export default function CartModal({ isModalVisible, toggleModal }) {
                         x
                      </div>
                   </div>
-
                </li>
             ))
          )}
+         </div>
+         <hr className="hr-line-total" />
          <div className="cart-total-price-wrap">
-           Total
+           TOTAL：
             <div className="cart-total-price">${getTotalPrice()}</div>
          </div>
+         <hr className="hr-line-total-btn" />
+         <a href="https://www.ifchic.com/tw/designers/288-jo-malone">
          <Button
             className="cart-modal-btn"
             type="primary"
          >
-            <CartIcon size={20} />
-            <span style={{ marginLeft: 12 }}>Start Checkout</span>
+            <span style={{ marginLeft: 12 }}>CHECK OUT</span>
          </Button>
+         </a>
          </>
       //</Modal>
    );
 }
+
+export default CartModal;

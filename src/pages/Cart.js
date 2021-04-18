@@ -5,6 +5,7 @@ import AppHeader from "../components/Header"
 import AppFooter from "../components/Footer"
 import { StoreContext } from "../store"
 import CartModal from "../components/CartModal"
+import CartSummary from "../components/CartSummary";
 
 const { Header, Content, Footer } = Layout;
 

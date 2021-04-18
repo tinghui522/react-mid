@@ -4,7 +4,7 @@ import { StoreContext } from "../store"
 import { CART_ADD_ITEM } from "../utils/constants"
 import { CartIcon } from "./Icons";
 
-export default function AddToCart({ product, qty }) {
+export default function AddToCart({ product, Size ,qty }) {
   const { dispatch } = useContext(StoreContext);
 
   const openNotification = () => {
@@ -30,6 +30,7 @@ export default function AddToCart({ product, qty }) {
         price: product.price,
         countInStock: product.countInStock,
         qty,
+        Size,
       },
     });
   };
@@ -37,8 +38,7 @@ export default function AddToCart({ product, qty }) {
 
   return (
     <Button type="primary" className="btn-tocar" onClick={addToCart}>
-      <CartIcon size={20} />
-      <span style={{ marginLeft: 12 }}>Add To Shopping Bag</span>
+      <span style={{ marginLeft: 12 }}>ADD TO BAG</span>
     </Button>
   );
 }

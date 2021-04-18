@@ -3,13 +3,13 @@ import { Layout } from 'antd';
 import NavBar from "../components/NavBar";
 import AppHeader from "../components/Header";
 import AppFooter from "../components/Footer";
-import ProductList from "../components/ProductList";
+import Categoties from "../components/Categories";
 import { StoreContext } from "../store";
 
-const { Header, Content, Footer } = Layout;
+const { Header ,Content ,Footer} = Layout;
 
 function Home() {
-  const { state: { page: {title, products} } } = useContext(StoreContext);
+  const { state: { page: {title} } } = useContext(StoreContext);
   return (
     <Layout className="container main-layout">
       <Layout className="bg-gray">
@@ -19,11 +19,11 @@ function Home() {
         <Header className="layout-header">
           <AppHeader title={title} />
         </Header>
-        <Content className="layout-content">
-          <ProductList products={products} />
+        <Content>
+          <Categoties/>
         </Content>
         <Footer className="layout-footer">
-          <AppFooter />
+          <AppFooter/>
         </Footer>
       </Layout>
     </Layout>

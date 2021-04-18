@@ -2,12 +2,11 @@
   {
     "id": "VfcByl",
     "category": "沐浴系列",
-    "name": "網頁維修中...",
+    "name": "沐浴乳",
     "sku": "sku_622147",
     "price": 16,
-    "image": "https://www.nordicnest.com/4af2b7/globalassets/product-pictures/dbkd/42551-01-03.jpg?quality=80&format=webp&width=740",
-    "description": "沐浴系列",
-    "description_long": "沐浴系列",
+    "image": "https://github.com/tinghui522/react-mid/blob/main/src/img/bathe.png?raw=true",
+    "description": "以我們迷人的沐浴和身體保養系列，呵護自己或寵溺與別不同的他。",
     "currency": "USD",
     "countInStock": 4 
   }
