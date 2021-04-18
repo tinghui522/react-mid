@@ -34,7 +34,7 @@ export default function NavBar() {
                 onClose={handleCloseDrawer}
                 visible={isOnTouch}
                 key={"left"}
-                width={250}
+                width={350}
                 zIndex={99}
                 bodyStyle={{ backgroundColor: "#fff" }}
                 /*headerStyle={{ backgroundColor: "#ECE4AC", color: "#4D4D4D" }}*/

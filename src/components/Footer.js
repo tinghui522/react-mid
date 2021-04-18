@@ -20,7 +20,7 @@ export default function Footer() {
                 </div>
                 <div>
                 <p className="footer-topic3">CONTACT US</p>
-                <p className="footer-detail3">GS - Fragrance Store
+                <p className="footer-detail3">Freesia Store
                                               02-0707060
                                               gsfs2021@gmail.com
                 </p>
