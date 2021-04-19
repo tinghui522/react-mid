@@ -10,7 +10,7 @@
 }
 
 /* sm */
-@media (min-width: 375px) { 
+@media (max-width: 425px) { 
   .container {
     width: 100%;
   }
@@ -756,25 +756,6 @@ span.ham-menu-bar3--touch {
   font-size: 'Gadugi';
 }
 
-/*.product-name {
-  color: #000;
-  opacity: 0.4;
-  margin-bottom: 0.5rem;
-}*/
-
-/*.product-more {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 1rem;
-}*/
-
-/*.product-link {
-  text-decoration: none;
-  align-self: center;
-  color: #8183ff;
-}*/
-
 /*productDetail*/
 .product-image {
   width: 85%;
@@ -885,7 +866,7 @@ span.ham-menu-bar3--touch {
 }
 
 .select-style {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .btn-tocar {
@@ -1104,20 +1085,20 @@ span.ham-menu-bar3--touch {
     width: 50px;
     height: 5px;
     top: 1rem;
-    margin-left: 3rem;
+    margin-left: 1.5rem;
   }
   
   span.ham-menu-bar2 {
     width: 50px;
     height: 5px;
     top: 1.55rem;
-    margin-left: 3rem;
+    margin-left: 1.5rem;
   }
   
   span.ham-menu-bar3 {
     width: 50px;
     height: 5px;
-    margin-left: 3rem;
+    margin-left: 1.5rem;
     top: 2.1rem;
   }
   
@@ -1163,30 +1144,30 @@ span.ham-menu-bar3--touch {
 
   .header-cart-summary {
     position: absolute;
-    margin-right: 4rem;
-    margin-top: 0.5rem;
+    margin-right: 5rem;
+    margin-top: 0rem;
   }
-/*categories*/
+/*categories rwd*/
   .home-detail{
     width:100%;
-    height: 360px;
-    margin-top: 16rem;
+    height: 250px;
+    margin-top: 15rem;
   }
 
   .detail-img{
     width:70%;
-    margin-top: -11rem;
+    margin-top: -8rem;
   }
 
   .detailpic{
-    width:60%;
-    margin-top: 8rem;
-    margin-left: 1rem;
+    width:65%;
+    margin-top: 3rem;
+    margin-left: 0rem;
   }
 
   .categories-word{
-    width:25%;
-    margin-top: 45rem;
+    width:30%;
+    margin-top: 35rem;
   }
 
   .categories-img1{
@@ -1213,186 +1194,187 @@ span.ham-menu-bar3--touch {
     margin-left: 1rem;
   }
   .hr-line1 {
-    width: 520px;
+    width: 400px;
     height: 5px;
     border: 0;
     border-top: solid 10px;
     border-color: #DAD4CA;
     margin-top: 3rem;
-    margin-left: 12rem;
+    margin-left: 10rem;
   }
   .hr-line2 {
-    width: 520px;
+    width: 400px;
     height: 5px;
     border: 0;
     border-top: solid 10px;
     border-color: #DAD4CA;
     margin-top: 3rem;
-    margin-left: 12rem;
+    margin-left: 10rem;
   }
 
   .hr-line3 {
-    width: 520px;
+    width: 400px;
     height: 5px;
     border: 0;
     border-top: solid 10px;
     border-color: #DAD4CA;
     margin-top: 3rem;
-    margin-left: 12rem;
+    margin-left: 10rem;
   }
 
   .hr-line4 {
-    width: 520px;
+    width: 400px;
     height: 5px;
     border: 0;
     border-top: solid 10px;
     border-color: #DAD4CA;
     margin-top: 3rem;
-    margin-left: 12rem;
+    margin-left: 10rem;
   }
 
   .text-1 {
-    font-size: 2.5rem;
-    margin-left: 3.5rem;
+    font-size: 2.2rem;
+    margin-left: 2rem;
   }
   .text-2 {
-    font-size: 2.5rem;
-    margin-left: 3.5rem;
+    font-size: 2.2rem;
+    margin-left: 2rem;
   }
   .text-3 {
-    font-size: 2.5rem;
-    margin-left: 3.5rem;
+    font-size: 2.2rem;
+    margin-left: 2rem;
   }
   .text-4 {
-    font-size: 2.5rem;
-    margin-left: 3.5rem;
+    font-size: 2.2rem;
+    margin-left: 2rem;
   }
   .detail-1{
-    width: 500px;
+    width: 60%;
     text-align: left;
-    font-size: 2.4rem;
-    margin-left: 15rem;
+    font-size: 2rem;
+    margin-left: 10rem;
   }
   .detail-2{
-    width: 600px;
+    width: 60%;
     text-align: left;
-    font-size: 2.4rem;
-    margin-left: 13rem;
+    font-size: 2rem;
+    margin-left: 10rem;
   }
   .detail-3{
-    width: 650px;
+    width: 60%;
     text-align: left;
-    font-size: 2.4rem;
-    margin-left: 14rem;
+    font-size: 2rem;
+    margin-left: 10rem;
   }
   .detail-4{
-    width: 560px;
+    width: 60%;
     text-align: left;
-    font-size: 2.4rem;
-    margin-left: 13rem;
+    font-size: 2rem;
+    margin-left: 10rem;
     margin-bottom: 5rem;
   }
-/* Footer */
+/* Footer rwd*/
   .footerword{
-    width:40%;
-    margin-left: 18rem;
+    width:50%;
+    margin-left: 13rem;
   }
 
   .footer-topic1{
-    margin-left: -30rem;
+    margin-left: -21rem;
     margin-top: 8rem;
-    font-size: 2.8rem;
+    font-size: 2.2rem;
   }
 
   .footer-detail1{
     width:250px;
-    font-size: 2.5rem;
-    margin-left: 6rem;
+    font-size: 2rem;
+    margin-left: 6.3rem;
     line-height: 4rem;
     text-align: center;
   }
 
   .footer-topic2{
-    margin-left: 25rem;
-    margin-top: -21.8rem;
-    font-size: 2.8rem;
+    margin-left: 22rem;
+    margin-top: -20rem;
+    font-size: 2.2rem;
   }
 
   .footer-detail2{
     width:270px;
-    font-size: 2.5rem;
-    margin-left: 32rem;
+    font-size: 2rem;
+    margin-left: 27rem;
     line-height: 4rem;
     text-align: center;
   }
 
   .footer-topic3{
-    margin-left: 0rem;
-    margin-top: 9rem;
-    font-size: 2.8rem;
+    margin-left: 0.5rem;
+    margin-top: 8rem;
+    font-size: 2.2rem;
   }
   .footer-detail3{
-    width:280px;
-    font-size: 2.5rem;
-    margin-left: 19.5rem;
+    width:350px;
+    font-size: 2rem;
+    margin-left: 14.3rem;
+    margin-bottom: 2.5rem;
     line-height: 4rem;
     text-align: center;
   }
 
   .hr-footer-line {
-    margin-top:5rem; 
+    margin-top:3rem; 
     width: 600px;
     border: 0;
-    border-top: solid 10px;
+    border-top: solid 8px;
     border-color: #fff;
     opacity: 1;
     border-radius: 0.2rem;
   }
 
   .text-gray2{
-    margin-left: 5rem;
+    margin-left: 45%;
     margin-top: 2rem;
-    font-size: 2.8rem;
+    font-size: 2rem;
   }
   .text-gray3{
-    margin-left: 24rem;
+    margin-left: 40%;
     margin-top: 2rem;
-    font-size: 2.8rem;
+    font-size: 2rem;
   }
 
   .text-gray4{
-    margin-left: 21rem;
+    margin-left: 43%;
     margin-top: 2rem;
-    font-size: 2.8rem;
+    font-size: 2rem;
   }
 
   .text-gray5{
-    margin-left: 23rem;
+    margin-left: 46%;
     margin-top: 2rem;
-    font-size: 2.8rem;
+    font-size: 2rem;
   }
 
   .text-gray6{
-    margin-left: 24rem;
+    margin-left: 10rem;
     margin-top: 2rem;
-    font-size: 2.8rem;
+    font-size: 2rem;
   }
 
   .facebook-icon{
-    margin-left: 20rem;
-    height: 70px;
+    margin-left: 17rem;
+    height: 60px;
   }
 
   .instagram-icon{
     margin-top: 0.3rem;
-    margin-left: 4.5rem;
-    height: 70px;
+    margin-left: 4rem;
+    height: 60px;
   }
 
   .line-icon{
     margin-top: 0.3rem;
-    margin-left: 4.2rem;
-    height: 70px;
+    margin-left: 4rem;
+    height: 60px;
   }
   /*Perfume rwd*/
   .hr-line-productdetail{
@@ -1400,18 +1382,18 @@ span.ham-menu-bar3--touch {
   }
   
   .perfume-title{
-    font-size: 1.3rem;
-    margin-right: 15%;
+    font-size: 2.2rem;
+    margin-top: -3.5rem;
   }
 
   .perfume-title-bg{
-    width: 110px;
-    margin-top: 4rem;
-    margin-left: 31rem;
+    width: 200px;
+    height: 24px;
+    margin-top: 5.5rem;
+    margin-left: 18.3rem;
   }
   
   .perfume-detail{
-    width: 100%;
     height: 600px;
     margin-top: 5rem;
     margin-bottom: 60rem;
@@ -1443,6 +1425,7 @@ span.ham-menu-bar3--touch {
   }
   
   .product-name{
+    font-size: 3rem;
     text-align: center;
     margin-left: 1.5rem;
   }
@@ -1450,5 +1433,180 @@ span.ham-menu-bar3--touch {
   .product-more{
     text-align: center;
     margin-left: -1.5rem;
+  }
+
+  /*productDetail*/
+  .product-image {
+    width: 90%;
+    margin-left: 9rem;
+    margin-top: 3rem;
+  }
+
+  .backcolor-product-category1{
+    width:120px;
+    margin-top: 4rem;
+    margin-left: 19.5rem;
+  }
+
+  .product-category{
+    font-size: 2.5rem;
+  }
+  .hr-line-productdetail1{
+    width: 28%;
+    height: 5px;
+    border: 0;
+    border-top: solid 5px;
+    border-color: #DAD4CA;
+    margin-top: 2rem;
+    margin-left: 3rem;
+  }
+
+  .product-name{
+    width: 30%;
+    margin-left:2rem;
+    font-size: 2rem;
+  }
+
+  .hr-line-productdetail2{
+    width: 28%;
+    height: 5px;
+    border: 0;
+    border-top: solid 5px;
+    border-color: #DAD4CA;
+    margin-top: 3rem;
+    margin-left: 3rem;
+  }
+
+  .product-description {
+    width: 30%;
+    font-size: 2rem;
+    margin-left: 3.5rem;
+  }
+
+  .product-price {
+    font-size: 2rem;
+    margin-left: 5rem;
+    margin-top: 0rem;
+  }
+
+  .product-status {
+    font-size: 2rem;
+    margin-left: 5rem;
+  }
+
+  .product-size{
+    font-size: 2rem;
+    margin-left: 5rem;
+    margin-top: 0rem;
+  }
+
+  .product-qty{
+    font-size: 2rem;
+    margin-left: 5rem;
+  }
+
+  .hr-line-productdetail3{
+    width: 28%;
+    height: 5px;
+    border: 0;
+    border-top: solid 5px;
+    border-color: #DAD4CA;
+    margin-left: 3rem;
+  }
+
+  .select-style {
+    font-size: 2rem;
+  }
+
+  .btn-tocar {
+    width: 25%;
+    font-size: 2.5rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    border-radius: 1.5rem;
+  }
+
+  .test-title{
+    font-size: 3rem;
+    margin-left: 0rem;
+  }
+
+  .topnote-img{
+    width: 35%;
+    margin-left: -10rem;
+  }
+  .heartnote-img{
+    width: 35%;
+    margin-left: -35rem;
+    margin-top: 35rem;
+  }
+  .basenote-img{
+    width: 35%;
+    margin-left: -55rem;
+    margin-top: 50rem;
+  }
+  .testing-category{
+    margin-left: 37rem;
+    font-size: 2.5rem;
+    margin-top: -35rem;
+  }
+
+  .testing-name{
+    margin-left: 36rem;
+    font-size: 3rem;
+  }
+
+  .testing-name-heartnote{
+    margin-left: 9rem;
+    font-size: 3rem;
+  }
+
+  .testing-name-basenote{
+    margin-left: -21rem;
+    font-size: 3rem;
+  }
+
+  .testing-description{
+    width: 600px;
+    opacity: 0.8;
+    margin-left: 35rem;
+    font-size: 2.2rem;
+  }
+
+  .topnote{
+    margin-left: 8rem;
+  }
+
+  .heartnote{
+    margin-left: 38rem;
+    margin-top: -29.4rem;
+  }
+
+  .basenote{
+    margin-left: 65rem;
+    margin-top: -29.2rem;
+  }
+
+  .hr-line-productdetail-works{
+    width: 90%;
+    height: 5px;
+    border: 0;
+    border-top: solid 5px;
+    border-color: #DAD4CA;
+    margin-top: 5rem;
+  }
+
+  .works-title{
+    font-size: 5rem;
+    margin-top:5rem;
+    margin-left: -35rem;
+  }
+
+  .works-detail{
+    width: 950px;
+    text-align: center;
+    margin-left: 20rem;
+    margin-top: 7rem;
+    font-size: 3rem;
   }
 } 
