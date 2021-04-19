@@ -23,7 +23,7 @@ export default function PerfumeDetail({product}) {
             
         </div>
         <div>
-        <Row gutter={[48,48]}>
+        <Row gutter={[0,8]}>
             {products.map(product => (
                 <Col 
                 key={product.id} 

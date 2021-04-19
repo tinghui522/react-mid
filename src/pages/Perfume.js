@@ -5,7 +5,6 @@ import AppHeader from "../components/Header";
 import AppFooter from "../components/Footer";
 import PerfumeDetail from "../components/PerfumeDetail";
 import products from "../json/products.json";
-import testing from "../json/testing.json";
 import { StoreContext } from "../store";
 
 const { Header ,Content ,Footer} = Layout;

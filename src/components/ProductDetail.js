@@ -16,7 +16,7 @@ function ProductDetail({ product,testing }) {
       <div className="perfume-title-bg">
       </div>
       <p className="perfume-title">PERFUMES</p>
-      <Row gutter={[32, 32]}>
+      <Row gutter={[0, 8]}>
          <Col
             lg={{ span: 4, offset: 3 }}
          >

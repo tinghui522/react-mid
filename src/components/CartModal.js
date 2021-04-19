@@ -51,7 +51,7 @@ const { Option } = Select;
             <div>Cart is empty</div>
          ) : (
             cartItems.map(item => (
-               <li key={item.id} className="cart-item">
+               <div key={item.id} className="cart-item">
                   <div className="cart-image">
                      <img src={item.image} alt={item.name} />
                   </div>
@@ -72,16 +72,16 @@ const { Option } = Select;
                            ))}
                         </Select>
                      </div>
-                  </div>
-                  <div className="cart-item-end">
+                  
+                  
                      <div className="cart-price">
                         ${item.price * item.qty}    
                      </div>
                      <div className="cart-item-delete" onClick={()=>removeFromCart(item.id)}>
                         x
                      </div>
-                  </div>
-               </li>
+                     </div>
+               </div>
             ))
          )}
          </div>
