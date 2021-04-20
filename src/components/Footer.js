@@ -54,7 +54,7 @@ export default function Footer() {
                 </p>
                 <p
                     className="text-gray6">
-                    © 2021 Jo Malone All Right Reserved
+                    © 2021 Freesia All Right Reserved
                 </p>
                 </div>
             
